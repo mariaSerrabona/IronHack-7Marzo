@@ -4,6 +4,8 @@
 #cover-box{
     color:navy;
     border: 1px solid #17212e;
+    border-radius: 10%;
+    padding: 10px 70px;
 }
 
 body{
