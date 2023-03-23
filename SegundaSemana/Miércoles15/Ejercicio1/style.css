@@ -3,7 +3,7 @@ h1{
     color: black;
     text-align: center;
 }
-ul{
+#PrimerMenu{
     list-style-type: none;
 }
 li {
@@ -11,9 +11,6 @@ li {
     margin-left: 20px;
 }
 
-#menu{
-    color:black;
-}
 
 #PrimeraSeccion{
     color:black;
@@ -28,19 +25,46 @@ img{
     height: 90px;
 }
 
+
+
 @media (max-width: 1000px) {
     p{
-        size: 30px;
+        font-size: 20px;
         color:red;
+    }
+
+    .abajo{
+        float: right;
+        color:pink;
+        width: 200px;
+        background-color: steelblue;
+        clear: left;
     }
 }
 
 
 @media (min-width: 1000px) {
+    .Enlaces{
+        display: flex;
+        color:red;
+    }
+    .Cuerpo{
+        display: flex;
+    }
+    .PrimeraColumma{
+        width: 45%;
+        color:pink;
+    }
+
+    .SegundaColumma{
+        width:25%;
+        flex-direction: row;
+    }
     p{
         font-size: 30px;
         color:black;
     }
+
 }
 
 
