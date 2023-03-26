@@ -40,16 +40,27 @@ img{
         background-color: steelblue;
         clear: left;
     }
+
+    .tituloSeccion{
+        justify-content: center;
+        text-align:left;
+    }
 }
 
 
 @media (min-width: 1000px) {
+
     .Enlaces{
         display: flex;
         color:red;
+        border: 1px;
     }
     .Cuerpo{
         display: flex;
+    }
+    .tituloSeccion{
+        justify-content: center;
+        text-align: center;
     }
     .PrimeraColumma{
         width: 25%;
@@ -70,7 +81,7 @@ img{
         color:black;
     }
 
-    #Dejabo{
+    #EnlaceDebajo{
         float: left;
         color:red;
         width: 200px;
